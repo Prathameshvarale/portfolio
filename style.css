@@ -144,7 +144,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-  color: #df9d57;
+  color: #f1912a;
   font-size: 14px;
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-  background: #9a5710;
+  background: #f1912a;
   transform: translateY(-10px);
 }
 
@@ -273,7 +273,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #9a5710;
+  border: 1px solid #f1912a;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -300,7 +300,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-  color: #9a5710;
+  color: #f1912a;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -319,13 +319,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-  color: #9a5710;
+  color: #f1912a;
   transform: translateY(-5px);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: #9a5710;
+  background: #f1912a;
 }
 
 .contact-right form {
@@ -373,10 +373,21 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
-  .header-text {
-    margin-top: 50%;
-    font-size: 16px;
+
+  #header{
+    background-image: url(assets/android_background.jpeg);
   }
+  .header-text {
+    margin-top: 150%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .header-text p {
+    font-size: 14px;
+    color: #fff;
+  }
+
   .header-text h1 {
     font-size: 30px;
   }
@@ -384,10 +395,11 @@ nav .fa-solid {
   nav .fa-solid {
     display: block;
     font-size: 25px;
+    color: #f1912a;
   }
 
   nav ul {
-    background: #df9d57;
+    background: black;
     position: fixed;
     top: 0;
     right: -200px;
@@ -412,7 +424,11 @@ nav .fa-solid {
 
   .sub-title{
     font-size: 40px;
+    text-align: center;
+  }
 
+  .about-col-2 .sub-title{
+    margin-bottom: 10px;
   }
 
   .about-col-1,.about-col-2{
